@@ -1,0 +1,19 @@
+.preview {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .img {
+    background-size: contain;
+    margin: 0 auto;
+  }
+  .p {
+    padding: 1rem;
+    color: var(--white);
+    font-size: 2rem;
+  }
+  h1 {
+    color: var(--error);
+  }
+}

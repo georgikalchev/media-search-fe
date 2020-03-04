@@ -1,0 +1,17 @@
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  img {
+    display: block;
+    border: solid var(--border-dark);
+    width: 360px;
+    height: 200px;
+    margin: 1rem;
+  }
+  p {
+    width: 360px;
+    margin: 1rem;
+  }
+}

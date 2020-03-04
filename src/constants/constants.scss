@@ -1,0 +1,77 @@
+:root {
+  --header-height: 36px;
+  --error: #a66066;
+  --base-color: #e3eaeb;
+  --border-dark: #027368;
+  --white: #e9f2f1;
+  --border-light: #038c73;
+  --border-light-transparent-30: #038c7354;
+  --border-light-transparent-50: #038c7380;
+  --border-light-transparent-80: #038c73cc;
+
+  *,
+  ::before,
+  ::after {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+  ::before,
+  ::after {
+    text-decoration: inherit;
+    vertical-align: inherit;
+  }
+  html {
+    line-height: 1.5;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  nav ol,
+  nav ul,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  a,
+  area,
+  button,
+  input,
+  label,
+  select,
+  summary,
+  textarea,
+  [tabindex] {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    padding: 0.25em 0.375em;
+  }
+  input:focus,
+  textarea:focus,
+  select:focus,
+  button:focus {
+    outline: none;
+  }
+}

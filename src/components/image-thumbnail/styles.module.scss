@@ -1,0 +1,22 @@
+.thumbnail {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  min-width: 320px;
+  flex: 1;
+  padding-top: 1rem;
+  margin: auto;
+  .img {
+    background-size: contain;
+    width: 320px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  .p {
+    padding: 1rem;
+    width: 320px;
+    margin-top: auto;
+  }
+}
